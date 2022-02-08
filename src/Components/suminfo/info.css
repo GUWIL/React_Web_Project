@@ -1,0 +1,41 @@
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_item {
+  flex: 1;
+  margin: 0 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.info_title {
+  font-size: 20px;
+}
+
+.info_container {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.feature_rate {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.nicon {
+  font-size: 15px;
+  margin-left: 5px;
+}
